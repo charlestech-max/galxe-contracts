@@ -8,6 +8,7 @@ import { networks } from "./chains";
 const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   etherscan: {
+    
     apiKey: {
       arbitrumOne: process.env.ARBISCAN_API_KEY || "",
       avalanche: process.env.SNOWTRACE_API_KEY || "",
