@@ -5,7 +5,6 @@ import "hardhat-gas-reporter";
 import type { HardhatUserConfig } from "hardhat/config";
 
 import { networks } from "./chains";
-
 const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   etherscan: {
